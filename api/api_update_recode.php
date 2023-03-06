@@ -6,6 +6,7 @@ header('Access-control-Allow-Method: PUT,PATCH');
 
 $config = new Config();
 
+
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     // parse_str(file_get_contents("php://input"), $_PUT_PATCH);
     $id               = $_POST['id'];
